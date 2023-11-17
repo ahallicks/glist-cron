@@ -19,7 +19,7 @@ jobs:
     steps:
       # Runs a single command using the runners shell
       - name: Ping GList to check updates
-        uses: Satak/webrequest-action@v1.2.3
+        uses: satak/webrequest-action@master
         with:
           # Web request URL endpoint
           url: "https://glist.fly.dev/api/check"
